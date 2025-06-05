@@ -134,7 +134,7 @@ finally:
 print("全取得完了。総ツイート数:", len(all_tweet_data))
 
 # 追記保存処理
-history_file = "日付テスト用.xlsx"
+history_file = "プリオケツイート.xlsx"
 history_id = get_file_id(history_file)
 
 if history_id:
